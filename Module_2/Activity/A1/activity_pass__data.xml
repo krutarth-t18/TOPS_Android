@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pass_Data">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fnameshow"
+        android:textSize="20dp"
+        android:hint="show"
+        android:layout_marginTop="100dp"
+        android:textStyle="normal"
+        android:padding="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnameshow"
+        android:textSize="20dp"
+        android:hint="show"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:layout_below="@id/fnameshow"
+        android:padding="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailshow"
+        android:textSize="20dp"
+        android:hint="show"
+        android:layout_below="@id/lnameshow"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:padding="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numbershow"
+        android:textSize="20dp"
+        android:hint="show"
+        android:layout_below="@id/mailshow"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:padding="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dobshow"
+        android:textSize="20dp"
+        android:hint="show"
+        android:layout_below="@id/numbershow"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:padding="25dp"/>
+</RelativeLayout>
