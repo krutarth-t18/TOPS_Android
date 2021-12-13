@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:hint="First name"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:hint="Last name"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@id/txt1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt3"
+        android:hint="Program"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@id/txt2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt4"
+        android:hint="Mail id"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@id/txt3"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout1"
+        android:layout_below="@id/txt4"
+        >
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/insert1"
+            android:layout_weight="1"
+            android:text="Insert"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete1"
+            android:layout_weight="1"
+            android:text="Delete"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
